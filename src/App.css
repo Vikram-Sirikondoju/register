@@ -1,0 +1,169 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.signin{
+  width:80%;
+  margin: 0px left;
+  text-align: left;
+  margin: 4px;
+}
+.container .row{
+  text-align: left;
+}
+.para
+{
+  width:100%;
+  text-align: left;
+}
+.container .row p{
+  border: 2px solid black;
+  padding:2px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+input[type="email"], input[type="password"], textarea {
+  width:100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
+}
+.first
+{
+  background-image: linear-gradient(navy,maroon);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icons
+{
+  color:red;
+}
+.paper{
+  background-color: #e0ffff;
+}
+input[type="text"],textarea {
+  width:100%;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
+}
+input[type="email"],input[type="password"]{
+  border-radius: 0px;
+ }
+.btn{
+  border-radius: 20px;
+}
+.justify
+{
+  background-color: blue;
+  color:#ccc;
+}
+.buttons{
+  text-align: start;
+}
+.button{
+  border-radius: 100px;
+ 
+}
+.images
+{
+  width:25px;
+  border-radius: 50%;
+}
+.notification p
+{
+  color:blue
+}
+.footer
+{
+  background-color: blue;
+  color:white;
+}
+.image{
+  width:100px;
+  padding:2px;
+}
+.geticons{
+  margin: 5px;
+  padding:5px;
+  font-size: 35px;
+  color:black;
+}
+.left {
+  background: linear-gradient(to bottom, #ff99cc 0%, blue 100%);
+  height:100vh;
+}
+p{
+  text-align: center;
+  color:white;
+}
+.image image{
+  align-items: center;
+}
